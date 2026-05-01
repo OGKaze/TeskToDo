@@ -17,7 +17,36 @@
     <!--Borders-Colour-->
     <SolidColorBrush x:Key="Borders" Color="#CCCCCC" />
     <!--TextPlaceHolder-->
-    <SolidColorBrush x:Key="PalceHolderText" Color="#FF484545"/>
+    <SolidColorBrush x:Key="PlaceHolderText" Color="#FF484545"/>
+    <SolidColorBrush x:Key="PlaceHolderBorder" Color="#FF7D7979"/>
+    <SolidColorBrush x:Key="PlaceHolderBorderText" Color="#FF2D2D2D"/>
+
+
+
+    <!--Buttons-->
+
+    <SolidColorBrush x:Key="ButtonComplete" Color="#FF18C773" />
+    <SolidColorBrush x:Key="ButtonCompleteOver" Color="#FF199258" />
+    <SolidColorBrush x:Key="ButtonCompleteClick" Color="#FF8CE4BA" />
+
+    <SolidColorBrush x:Key="ButtonDelete" Color="#CA2C2C" />
+    <SolidColorBrush x:Key="ButtonDeleteOver" Color="#FF790D0D" />
+    <SolidColorBrush x:Key="ButtonDeleteClick" Color="#FFDC8787" />
+
+    <SolidColorBrush x:Key="ButtonEdit" Color="#F4B30C" />
+    <SolidColorBrush x:Key="ButtonEditOver" Color="#FF9C740F" />
+    <SolidColorBrush x:Key="ButtonEditClick" Color="#FFEFD389" />
+
+    <SolidColorBrush x:Key="Nav.Default" Color="Transparent" />
+
+    <SolidColorBrush x:Key="Nav.Over" Color="#396A84" />
+
+    <SolidColorBrush x:Key="Nav.Click" Color="#87B7D0" />
+
+
+    <!--TaskListDescriptionText-->
+    <SolidColorBrush x:Key="TaskListDescriptionText" Color="#838383"/>
+    <SolidColorBrush x:Key="TaskListDescriptionTitle" Color="#707070"/>
 
     <!--Importancy-Colour-->
  

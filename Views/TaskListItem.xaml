@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="TaskManagerMVVM.Views.TaskListItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TaskManagerMVVM.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="145" d:DesignWidth="435">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="38" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <!--Title-->
+            <TextBlock Text="Title" 
+                   Style="{StaticResource Title}" 
+                   Foreground="{StaticResource TaskListDescriptionTitle}"    
+                   Margin="20 0" 
+                   VerticalAlignment="Center"/>
+        <!--Cathegory Badge-->
+        <Border CornerRadius="3" Background="{StaticResource PlaceHolderBorder}" Padding="40 0"
+                Height="23" 
+                HorizontalAlignment="Right "
+                Margin="0 0 20 0">
+            <TextBlock Text="Cathegory" 
+                       Foreground="{StaticResource PlaceHolderBorderText}"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+
+        </Border> 
+        <!--Description-->
+        <TextBlock Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"          
+                   TextWrapping="Wrap"
+                   Grid.Row="1"
+                   Margin="20 5 0 0"
+                   Foreground="{StaticResource TaskListDescriptionText}"/>
+        <!--DueDate-->
+        <TextBlock Text="Due:21/12/2026"
+                   Foreground="{StaticResource TaskListDescriptionText}"
+                   Grid.Row="2"
+                   Margin="20 0"
+                    VerticalAlignment="Center"/>
+    </Grid>
+</UserControl>
